@@ -1,4 +1,5 @@
-function isPower(number) {
+// isPower Algoritm
+const isPower = (number) => {
   if (number < 1) {
     return false;
   }
@@ -10,6 +11,5 @@ function isPower(number) {
     divideNumber = divideNumber / 2;
   }
   return true;
-}
-
+};
 //   https://leetcode.com/problems/power-of-two/

@@ -1,4 +1,5 @@
-var plusOne = function(digits) {
+// Plus One Algoritm
+const plusOne = (digits) => {
     for (let i = digits.length; i >=0; i--) {
         if(digits[i] < 9) {
             digits[i] = digits[i] + 1
@@ -11,4 +12,4 @@ var plusOne = function(digits) {
     return digits
 }
 
-// https://leetcode.com/problems/plus-one/
+//Source Link:  https://leetcode.com/problems/plus-one/
